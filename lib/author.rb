@@ -20,9 +20,7 @@ class Author
     end
 
     def self.post_count
-        total = 0 
-        @@all.each {|a| total += a.posts.length}
-        total
+        Post.all.count
     end    
 
 
