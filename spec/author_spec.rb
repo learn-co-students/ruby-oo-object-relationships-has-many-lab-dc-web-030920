@@ -11,8 +11,8 @@ describe "Author" do
     end
 
     describe "#name" do
-      it "has an attr_accessor for name" do
-        expect(betty.name).to eq("Betty")
+    it "has an attr_accessor for name" do
+      expect(betty.name).to eq("Betty")
       end
     end
 
